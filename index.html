@@ -1,74 +1,190 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja escolar</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentação - Linguagem Sabrosito</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fefefe;
+            color: #333;
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #e74c3c;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
+            margin-top: 2rem;
+        }
+
+        pre {
+            background-color: #1e1e1e;
+            color: #00ff88;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        ul {
+            list-style: square;
+            margin-left: 1.5rem;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 2rem 0;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>Sistema de gestão de vendas e stock para uma loja escolar</h1>
-        <p>Usando C++, permite ao utilizador realizar várias operações fundamentais para a gestão diária de um negócio, neste caso utilizaremos o exemplo de uma loja escolar.</p>
-        
-        <h2>Menu:</h2>
+
+    <h1>Documentação da Linguagem Sabrosito</h1>
+
+    <div class="section">
+        <h2>1. Introdução</h2>
+        <p>A linguagem <strong>Sabrosito</strong> é um sistema de comandos desenvolvido para gerenciar um estoque e
+            realizar vendas de produtos em um mercado. A linguagem foi projetada para ser simples e direta, permitindo
+            que usuários interajam com um sistema de controle de estoque e vendas de forma eficiente.</p>
+
+        <h3>Funcionalidades Principais:</h3>
         <ul>
-            <li>1. <a href="#">Atualizar o estoque</a></li>
-            <li>2. <a href="#">Realizar uma venda</a></li>
-            <li>3. <a href="#">Mostrar um resumo dos produtos e das vendas</a></li>
-            <li>4. <a href="#">Sair do programa</a></li>
+            <li><strong>Adicionar produtos ao estoque</strong></li>
+            <li><strong>Vender produtos</strong></li>
+            <li><strong>Consultar estoque</strong></li>
+            <li><strong>Alterar preços e quantidades dos produtos</strong></li>
+            <li><strong>Remover produtos do estoque</strong></li>
+            <li><strong>Gerar relatórios de vendas</strong></li>
         </ul>
-        
-        <h2>Atualizar o estoque</h2>
-        <p>Permite ao utilizador adicionar mais unidades a um produto existente ou introduzir um novo produto no sistema, incluindo detalhes como o nome, preço de compra, preço de venda e a quantidade em estoque.</p>
-        
-        <h2>Realizar uma venda</h2>
-        <p>É um processo interativo onde o utilizador escolhe um ou mais produtos, especifica as quantidades a vender, e o sistema calcula o total a pagar. Se o pagamento for suficiente, o sistema atualiza o estoque e registra o valor das vendas. Se o pagamento for insuficiente, a venda é cancelada.</p>
-        
-        <h2>Mostrar o resumo</h2>
-        <p>Fornece uma visão geral dos produtos, incluindo o custo total do estoque, vendas totais estimadas (baseadas no preço de venda atual e no estoque), e o total de vendas já realizadas.</p>
-        
-        <div class="image-container">
-            <h3>Sistema inicial</h3>
-            <img src="imagens/image.png" alt="Imagem do sistema">
-        </div>
-
-
-        <div class="canva-embed">
-            <iframe loading="lazy" src="https://www.canva.com/design/DAF_Ny3qvgc/88LXC8x2RhEqjz4eXyeHxA/view?embed" allowfullscreen></iframe>
-            <a href="https://www.canva.com/design/DAF_Ny3qvgc/88LXC8x2RhEqjz4eXyeHxA/view?utm_content=DAF_Ny3qvgc&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Loja escolar</a> 
-        </div>
-   <br><br><br>
-   <div class="image-collage">
-    <div class="images-side-by-side">
-        <div class="image-top">
-            <h2>Sistema final</h2>
-            <img src="imagens/image (1).png" alt="Imagem 1">
-        </div>
-        <div class="image-top">
-            <img src="imagens/image (3).png" alt="Imagem 3">
-        </div>
     </div>
-    <div class="image-below">
-        <center>
-        <img src="imagens/image (2).png" alt="Imagem 2">
-    </center>
+
+    <div class="section">
+        <h2>2. Comandos Disponíveis</h2>
+
+        <h3>2.1. <code>arepa [nome] [quantidade] [preço]</code></h3>
+        <p>Adiciona um produto ao estoque com o nome, quantidade e preço especificados. Se o produto já existir, a
+            quantidade será incrementada.</p>
+        <pre>arepa Teclado 10 15.50</pre>
+
+        <h3>2.2. <code>empanada [nome] [quantidade]</code></h3>
+        <p>Vende um determinado número de unidades de um produto. O estoque será reduzido conforme as vendas.</p>
+        <pre>empanada Teclado 3</pre>
+
+        <h3>2.3. <code>buñuelo</code></h3>
+        <p>Consulta e exibe todos os produtos em estoque, com suas quantidades e preços.</p>
+        <pre>buñuelo
+            <br>Estoque atual:
+            <br>Teclado: 7 disponível(s), Preço unitário: R$15.50
+        </pre>
+
+        <h3>2.4. <code>pandebono [nome]</code></h3>
+        <p>Consulta o preço de um produto específico.</p>
+        <pre>pandebono Teclado
+            <br>Preço de Teclado: R$15.50
+        </pre>
+
+        <h3>2.5. <code>bandeja_paisa [nome] [novo_preço]</code></h3>
+        <p>Altera o preço de um produto específico no estoque.</p>
+        <pre>bandeja_paisa teclado 50
+            <br>Preço de teclado alterado para: R$50.00
+        </pre>
+
+        <h3>2.6. <code>empanadita [nome] [nova_quantidade]</code></h3>
+        <p>Altera a quantidade de um produto no estoque.</p>
+        <pre>empanadita arepa_americana 50</pre>
+
+        <h3>2.7. <code>arepita [nome]</code></h3>
+        <p>Remove um produto do estoque. O produto será excluído permanentemente.</p>
+        <pre>empanadita Teclado 
+            <br>Produto Teclado removido do estoque.
+        </pre>
+
+        <h3>2.8. <code>sancocho</code></h3>
+        <p>Gera um relatório de vendas, exibindo o número de unidades vendidas de cada produto.</p>
+        <pre>sancocho
+            <br>Relatório de Vendas:
+            <br>teclado: 3 unidade(s) vendida(s).
+        </pre>
     </div>
-</div>
-</div>
-<center>
-    <br><br><br><br> Carolina Cardoso
-    <br><br>Sofia Mosquera
-   <br><br>
-   1PI
-   <br><br>
-   .
-</center>
+
+    <div class="section">
+        <h2>3. Estrutura de Dados</h2>
+        <h3>Produto</h3>
+        <p>A estrutura de dados principal é a <code>Produto</code>, que contém as informações sobre cada produto no
+            estoque. Ela é composta por:</p>
+        <pre>
+typedef struct {
+    char nome[50];       // Nome do produto
+    int quantidade;      // Quantidade disponível no estoque
+    float preco;         // Preço unitário do produto
+    int vendas;          // Quantidade de vendas realizadas
+} Produto;
+    </pre>
+        <ul>
+            <li><strong>nome</strong>: Nome do produto.</li>
+            <li><strong>quantidade</strong>: Quantidade disponível no estoque.</li>
+            <li><strong>preco</strong>: Preço unitário do produto.</li>
+            <li><strong>vendas</strong>: Contador de vendas realizadas.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>4. Exemplos de Uso</h2>
+
+        <h3>Exemplo 1: Adicionando Produtos ao Estoque</h3>
+        <pre>arepa arepa_americana 10 15.50</pre>
+
+        <h3>Exemplo 2: Vendendo Produtos</h3>
+        <pre>empanada empanada_frita 3</pre>
+
+        <h3>Exemplo 3: Consultando Estoque</h3>
+        <pre>buñuelo</pre>
+
+        <h3>Exemplo 4: Alterando Preços e Quantidades</h3>
+        <pre>
+bandeja_paisa arepa_americana 18.00
+empanadita arepa_americana 50
+    </pre>
+
+        <h3>Exemplo 5: Gerando Relatório de Vendas</h3>
+        <pre>sancocho</pre>
+    </div>
+
+    <div class="section">
+        <h2>5. Conclusão</h2>
+        <p>A linguagem <strong>Sabrosito</strong> é uma ferramenta simples e eficaz para gerenciamento de estoque e
+            vendas, permitindo que os usuários possam adicionar, vender, consultar e modificar produtos de forma
+            prática. Essa linguagem pode ser expandida para incluir novas funcionalidades conforme necessário.</p>
+    </div>
+
 </body>
+
 </html>
